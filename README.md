@@ -54,7 +54,7 @@ The figure below compares the performance of EfficientNetB0, DenseNet121, and Re
 EfficientNetB0 achieved the best overall performance, obtaining an accuracy of **85.6%**, followed closely by DenseNet121 (**84%**). ResNet50 performed significantly lower on this dataset.
 
 <p align="center">
-  <img src="results/Unknown.png" alt="Model Comparison" width="900">
+  <img src="results/results_comparison.png" alt="Model Comparison" width="900">
 </p>
 
 ## Model Comparison
