@@ -42,7 +42,6 @@ https://www.kaggle.com/datasets/omkarmanohardalvi/lungs-disease-dataset-4-types
 
 ---
 
-## Model Comparison
 ## Performance Comparison
 
 The figure below compares the performance of EfficientNetB0, DenseNet121, and ResNet50 across multiple evaluation metrics.
@@ -57,11 +56,14 @@ EfficientNetB0 achieved the best overall performance, obtaining an accuracy of *
 <p align="center">
   <img src="Unknown.png" alt="Model Comparison" width="900">
 </p>
-| Model | Accuracy |
-|--------|----------|
-| EfficientNetB0 | **85.6%** |
-| DenseNet121 | 84% |
-| ResNet50 | 53% |
+
+## Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|:--------:|:---------:|:------:|:--------:|
+| **EfficientNetB0** | **85.6%** | **85%** | **85%** | **85%** |
+| **DenseNet121** | **84%** | **84%** | **84%** | **84%** |
+| **ResNet50** | **53%** | **54%** | **53%** | **50%** |
 
 ---
 
